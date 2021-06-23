@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "klickbrick-ryx"
 version = "0.1.0"
-description = ""
+description = "CLI liveproject for Manning"
 authors = ["Ryxai <jmichaelbaum@gmail.com>"]
 
 [tool.poetry.dependencies]
