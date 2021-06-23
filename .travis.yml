@@ -14,6 +14,4 @@ before_deploy:
 deploy:
   provider: script
   script: poetry publish -r testpypi
-  on:
-    tags: true
 
