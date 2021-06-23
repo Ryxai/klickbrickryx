@@ -13,6 +13,6 @@ before_deploy:
   - poetry build
 deploy:
   provider: script
-  script: poetry publish -r testpypi
+  script: poetry publish -r testpypi --build
   on:
     branch: main
