@@ -1,7 +1,7 @@
 import unittest
 from collections import namedtuple
-from klickbrick_ryx import __version__
-import klickbrick_ryx.cli as cli
+from klickbrickryx import __version__
+import klickbrickryx.cli as cli
 
 
 def test_version():
