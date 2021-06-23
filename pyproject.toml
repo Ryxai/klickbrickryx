@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "klickbrick-ryx"
+name = "klickbrickryx"
 version = "0.1.1"
 description = "CLI liveproject for Manning"
 authors = ["Ryxai <jmichaelbaum@gmail.com>"]
@@ -11,7 +11,7 @@ python = "^3.9"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-klickbrick = 'klickbrick-ryx.cli:main'
+klickbrickryx = 'klickbrickryx.cli:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
