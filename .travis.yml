@@ -8,7 +8,7 @@ install:
 script:
   - python -m unittest
 before_deploy:
-  - poetry config respositories.testpypi https://test.pypi.org/legacy/
+  - poetry config repositories.testpypi https://test.pypi.org/legacy/
   - poetry config http-basic.testpypi $PYPI_USER $PYPI_PASS
   - poetry build
 deploy:
