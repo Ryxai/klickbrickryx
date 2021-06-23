@@ -1,6 +1,4 @@
-import argparse
-import sys
-
+import argparse, sys
 
 def main():
     args = parse_args(sys.argv[1:])
